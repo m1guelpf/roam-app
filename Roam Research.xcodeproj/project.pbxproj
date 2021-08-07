@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01F931A26BE331F004BAAAC /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F931926BE331F004BAAAC /* ShareViewController.swift */; };
+		C01F931D26BE331F004BAAAC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01F931B26BE331F004BAAAC /* MainInterface.storyboard */; };
+		C01F932126BE331F004BAAAC /* Share to Roam.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C01F931726BE331F004BAAAC /* Share to Roam.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C05FA57C26BE087700AEF3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FA57B26BE087700AEF3B2 /* AppDelegate.swift */; };
 		C05FA57E26BE087700AEF3B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FA57D26BE087700AEF3B2 /* SceneDelegate.swift */; };
 		C05FA58026BE087700AEF3B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FA57F26BE087700AEF3B2 /* ViewController.swift */; };
@@ -15,7 +18,35 @@
 		C05FA58826BE087800AEF3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05FA58626BE087800AEF3B2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C01F931F26BE331F004BAAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C05FA57026BE087700AEF3B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01F931626BE331F004BAAAC;
+			remoteInfo = "Share to Roam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C01F930D26BE272E004BAAAC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C01F932126BE331F004BAAAC /* Share to Roam.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C01F931726BE331F004BAAAC /* Share to Roam.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Share to Roam.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F931926BE331F004BAAAC /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		C01F931C26BE331F004BAAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C01F931E26BE331F004BAAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05FA57826BE087700AEF3B2 /* Roam Research.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roam Research.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05FA57B26BE087700AEF3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C05FA57D26BE087700AEF3B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +58,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C01F931426BE331F004BAAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C05FA57526BE087700AEF3B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +75,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C01F931826BE331F004BAAAC /* Share to Roam */ = {
+			isa = PBXGroup;
+			children = (
+				C01F931926BE331F004BAAAC /* ShareViewController.swift */,
+				C01F931B26BE331F004BAAAC /* MainInterface.storyboard */,
+				C01F931E26BE331F004BAAAC /* Info.plist */,
+			);
+			path = "Share to Roam";
+			sourceTree = "<group>";
+		};
 		C05FA56F26BE087700AEF3B2 = {
 			isa = PBXGroup;
 			children = (
 				C05FA57A26BE087700AEF3B2 /* Roam Research */,
+				C01F931826BE331F004BAAAC /* Share to Roam */,
 				C05FA57926BE087700AEF3B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C05FA57826BE087700AEF3B2 /* Roam Research.app */,
+				C01F931726BE331F004BAAAC /* Share to Roam.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +120,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C01F931626BE331F004BAAAC /* Share to Roam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01F932226BE331F004BAAAC /* Build configuration list for PBXNativeTarget "Share to Roam" */;
+			buildPhases = (
+				C01F931326BE331F004BAAAC /* Sources */,
+				C01F931426BE331F004BAAAC /* Frameworks */,
+				C01F931526BE331F004BAAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Share to Roam";
+			productName = "Share to Roam";
+			productReference = C01F931726BE331F004BAAAC /* Share to Roam.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C05FA57726BE087700AEF3B2 /* Roam Research */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C05FA58C26BE087800AEF3B2 /* Build configuration list for PBXNativeTarget "Roam Research" */;
@@ -77,10 +144,12 @@
 				C05FA57426BE087700AEF3B2 /* Sources */,
 				C05FA57526BE087700AEF3B2 /* Frameworks */,
 				C05FA57626BE087700AEF3B2 /* Resources */,
+				C01F930D26BE272E004BAAAC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C01F932026BE331F004BAAAC /* PBXTargetDependency */,
 			);
 			name = "Roam Research";
 			productName = "Roam Research";
@@ -97,6 +166,9 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					C01F931626BE331F004BAAAC = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					C05FA57726BE087700AEF3B2 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -116,11 +188,20 @@
 			projectRoot = "";
 			targets = (
 				C05FA57726BE087700AEF3B2 /* Roam Research */,
+				C01F931626BE331F004BAAAC /* Share to Roam */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C01F931526BE331F004BAAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F931D26BE331F004BAAAC /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C05FA57626BE087700AEF3B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,6 +215,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C01F931326BE331F004BAAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01F931A26BE331F004BAAAC /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C05FA57426BE087700AEF3B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,7 +235,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C01F932026BE331F004BAAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01F931626BE331F004BAAAC /* Share to Roam */;
+			targetProxy = C01F931F26BE331F004BAAAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		C01F931B26BE331F004BAAAC /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01F931C26BE331F004BAAAC /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		C05FA58126BE087700AEF3B2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +271,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C01F932326BE331F004BAAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Share to Roam/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Share to Roam";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.m1guelpf.RoamResearch.RoamShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01F932426BE331F004BAAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Share to Roam/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Share to Roam";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.m1guelpf.RoamResearch.RoamShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C05FA58A26BE087800AEF3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -285,8 +440,10 @@
 		C05FA58D26BE087800AEF3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LR4RJT6586;
@@ -302,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Roam-Research";
+				PRODUCT_BUNDLE_IDENTIFIER = me.m1guelpf.RoamResearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,8 +470,10 @@
 		C05FA58E26BE087800AEF3B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LR4RJT6586;
@@ -330,7 +489,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Roam-Research";
+				PRODUCT_BUNDLE_IDENTIFIER = me.m1guelpf.RoamResearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,6 +500,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C01F932226BE331F004BAAAC /* Build configuration list for PBXNativeTarget "Share to Roam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01F932326BE331F004BAAAC /* Debug */,
+				C01F932426BE331F004BAAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C05FA57326BE087700AEF3B2 /* Build configuration list for PBXProject "Roam Research" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
