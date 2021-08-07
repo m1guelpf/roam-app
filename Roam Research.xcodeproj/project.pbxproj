@@ -47,6 +47,8 @@
 		C01F931926BE331F004BAAAC /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		C01F931C26BE331F004BAAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		C01F931E26BE331F004BAAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C036A79026BF4F1C0012F395 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C036A79126BF51EE0012F395 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		C05FA57826BE087700AEF3B2 /* Roam Research.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roam Research.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05FA57B26BE087700AEF3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C05FA57D26BE087700AEF3B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,8 @@
 		C05FA56F26BE087700AEF3B2 = {
 			isa = PBXGroup;
 			children = (
+				C036A79126BF51EE0012F395 /* LICENSE.md */,
+				C036A79026BF4F1C0012F395 /* README.md */,
 				C05FA57A26BE087700AEF3B2 /* Roam Research */,
 				C01F931826BE331F004BAAAC /* Share to Roam */,
 				C05FA57926BE087700AEF3B2 /* Products */,
