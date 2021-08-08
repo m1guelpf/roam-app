@@ -43,6 +43,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C01A228626BF5B9A009FBBE0 /* Roam Research.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Roam Research.entitlements"; sourceTree = "<group>"; };
+		C01A228726BF5BA7009FBBE0 /* Roam ResearchRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Roam ResearchRelease.entitlements"; sourceTree = "<group>"; };
+		C01A228826BF5C06009FBBE0 /* Share to Roam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Share to Roam.entitlements"; sourceTree = "<group>"; };
+		C01A228926BF5C14009FBBE0 /* Share to RoamRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Share to RoamRelease.entitlements"; sourceTree = "<group>"; };
 		C01F931726BE331F004BAAAC /* Share to Roam.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Share to Roam.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01F931926BE331F004BAAAC /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		C01F931C26BE331F004BAAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 		C01F931826BE331F004BAAAC /* Share to Roam */ = {
 			isa = PBXGroup;
 			children = (
+				C01A228926BF5C14009FBBE0 /* Share to RoamRelease.entitlements */,
+				C01A228826BF5C06009FBBE0 /* Share to Roam.entitlements */,
 				C01F931926BE331F004BAAAC /* ShareViewController.swift */,
 				C01F931B26BE331F004BAAAC /* MainInterface.storyboard */,
 				C01F931E26BE331F004BAAAC /* Info.plist */,
@@ -110,6 +116,8 @@
 		C05FA57A26BE087700AEF3B2 /* Roam Research */ = {
 			isa = PBXGroup;
 			children = (
+				C01A228726BF5BA7009FBBE0 /* Roam ResearchRelease.entitlements */,
+				C01A228626BF5B9A009FBBE0 /* Roam Research.entitlements */,
 				C05FA57B26BE087700AEF3B2 /* AppDelegate.swift */,
 				C05FA57D26BE087700AEF3B2 /* SceneDelegate.swift */,
 				C05FA57F26BE087700AEF3B2 /* ViewController.swift */,
@@ -278,6 +286,7 @@
 		C01F932326BE331F004BAAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Share to Roam/Share to Roam.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LR4RJT6586;
@@ -303,6 +312,7 @@
 		C01F932426BE331F004BAAAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Share to Roam/Share to RoamRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LR4RJT6586;
@@ -448,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Roam Research/Roam Research.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LR4RJT6586;
@@ -478,6 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Roam Research/Roam ResearchRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LR4RJT6586;

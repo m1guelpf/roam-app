@@ -9,7 +9,7 @@ import UIKit
 import WebKit
 
 class CustomShareViewController: UIViewController {
-	let userDefaults: UserDefaults = .standard
+	let userDefaults: UserDefaults = UserDefaults.init(suiteName: "group.me.m1guelpf.RoamResearch")!
 
 	private var urlString: String? {
 		didSet {

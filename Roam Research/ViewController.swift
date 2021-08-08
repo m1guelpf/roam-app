@@ -10,7 +10,7 @@ import WebKit
 
 class ViewController: UIViewController {
 	
-	let userDefaults: UserDefaults = .standard
+	let userDefaults: UserDefaults = UserDefaults.init(suiteName: "group.me.m1guelpf.RoamResearch")!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
