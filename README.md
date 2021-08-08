@@ -8,7 +8,7 @@ This app wraps the Roam Research website in a webview, allowing you to benefit f
 
 I've submitted this app for inclusion on the App Store, but it probably won't be accepted (Apple doesn't really like apps which just "wrap" websites).
 
-If you really want to run this on your device, your best bet is to grab the `.ipa` file from the [releases tab](/releases) and install it with [Altstore](https://altstore.io/) (see [this guide](https://iosninja.io/altstore)). Or, if you're a developer and know what you're doing, use Xcode.
+If you really want to run this on your device, your best bet is to grab the `.ipa` file from the [releases tab](https://github.com/m1guelpf/roam-app/releases) and install it with [Altstore](https://altstore.io/) (see [this guide](https://iosninja.io/altstore)). Or, if you're a developer and know what you're doing, use Xcode.
 
 ## Contributing
 
