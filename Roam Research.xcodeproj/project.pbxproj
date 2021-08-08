@@ -288,7 +288,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Share to Roam/Share to Roam.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = LR4RJT6586;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Share to Roam/Info.plist";
@@ -314,7 +314,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Share to Roam/Share to RoamRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = LR4RJT6586;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Share to Roam/Info.plist";
@@ -460,7 +460,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Roam Research/Roam Research.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = LR4RJT6586;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Roam Research/Info.plist";
@@ -491,7 +491,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Roam Research/Roam ResearchRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = LR4RJT6586;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Roam Research/Info.plist";
